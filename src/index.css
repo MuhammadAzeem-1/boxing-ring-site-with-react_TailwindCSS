@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.flex_1{
+    @apply flex justify-start items-center 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex_2{
+    @apply flex items-center
 }
+
+.flex_3{
+    @apply flex flex-col justify-between items-center
+}
+
+.flex_4{
+    @apply flex justify-start items-start 
+}
+
+.flex_5{
+    @apply flex justify-center items-center 
+}
+
+.flex_item_2{
+    @apply justify-start items-center 
+}
+
+.upcomming_item{
+    @apply uppercase sm:text-[16px] text-[12px]  font-[700]
+}
+
+.footer_items_logo {
+    @apply flex justify-center items-center rounded-md w-12 h-12 bg-slate-800
+}
+
+
+
+
+
+
+
+
+.header-padding{
+    padding: 1rem 0.5rem 0.8rem 2rem;
+}
+
+.gray-image {
+    filter: grayscale(100%);
+}
+
+.footer > div > p{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.background-image-ome{
+    background-image: url("./assets/fighterHome.png");
+    position: relative;
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+    background-size: cover; /* Make sure the image covers the container */
+    background-position: center; /* Center the image */
+}
+
+.background-image{
+    background-image: url("./assets/f7.png");
+    background-size: cover; 
+    background-position: center; 
+    height: 30rem;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.background-image-top{
+    background-image: url("./assets/f9.png");
+    background-size: cover;
+    background-position: center; 
+    height: 28rem;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.background-image-boxer{
+    background-image: url("./assets/bg-boxer.png");
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    width: 100%;
+}
+
+.background-image-card{
+    background-image: url("./assets/fighters.png");
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+}
+
+.card-gradient {
+    background: rgb(15,15,15);
+background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(21,21,21,0.9752275910364145) 56%, rgba(36,36,36,0.6530987394957983) 85%);
+}
+
+.card-gradient-a{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.9108018207282913) 0%, rgba(15,15,15,0.4682247899159664) 38%);
+}
+
+.card-top-gradient {
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(248,41,35,1) 27%);
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .background-image{
+        height: 20rem;
+        width: 100%;
+    }
+  }
