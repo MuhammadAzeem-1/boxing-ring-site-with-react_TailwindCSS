@@ -6,10 +6,10 @@ import Homepage from './Homepage'
 const Home = () => {
   return (
     <div>
-        <Script />
+        <Script overflow={true}/>
         <Navbar />
         <Homepage />
-        <Script />
+        <Script overflow={true}/>
     </div>
   )
 }

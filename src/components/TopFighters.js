@@ -6,7 +6,7 @@ import { Topfighter } from "../utils/Data";
 const TopFighters = () => {
   return (
     <section className="bg-[#1c1c1c] ">
-      <section className="py-20 lg:mx-40 mx-8">
+      <section className="py-20 lg:mx-52 mx-8">
 
         <div className="flex justify-between items-center">
           

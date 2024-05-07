@@ -16,15 +16,14 @@ const HeadToHead = () => {
       </div>
 
       <div className="lg:hidden flex_3 gap-4 w-full">
-       
-       <div className="flex justify-center gap-16 w-full">
-          <HeadCard />
-          <HeadCard /> 
-       </div>
+          <div className="flex justify-center gap-16 w-full">
+            <HeadCard />
+            <HeadCard /> 
+          </div>
       
-      <div className="flex_5 w-full">
-         <Score />
-      </div>
+          <div className="flex_5 w-full">
+             <Score />
+          </div>
        
       </div>
     </section>

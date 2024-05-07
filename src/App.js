@@ -7,6 +7,8 @@ import TopFighters from './components/TopFighters';
 import History from './components/History';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import LegacyMedia from './components/LegacyMedia';
+import TopStories from './components/TopStories';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <Upcoming />
       <News />
       <HeadToHead />
+      <LegacyMedia />
       <TopFighters />
+      <TopStories />
       <History />
       <Contact />
       <Footer />
