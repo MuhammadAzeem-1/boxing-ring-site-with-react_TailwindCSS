@@ -117,6 +117,15 @@
     filter: grayscale(100%);
 }
 
+.background-image-topknokouts{
+    background-image: url("./assets/topknokouts.png");
+    background-size: cover;
+    background-position: center; 
+    height: 28rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
 .background-image-boxer{
     background-image: url("./assets/bg-boxer.png");
     background-size: cover; 
@@ -159,6 +168,46 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(248,41,35,1) 27%);
     background: rgb(15,15,15);
     background: linear-gradient(0deg, rgba(15,15,15,1) 12%, rgba(21,21,21,0.835171568627451) 62%, rgba(36,36,36,0.7987570028011204) 100%);
 }
+
+.top-knockout-gradient{
+    background: rgb(15,15,15);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9921218487394958) 0%, rgba(36,36,36,0.048144257703081283) 49%, rgba(4,4,4,0.9417016806722689) 100%);
+}
+
+.comunity-gradient{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(37, 37, 37, 0.715) 10%, rgba(15,15,15,0.9864320728291317) 90%);
+    
+}
+
+/* --------------------------------- */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  }
+  
+  .flex-item {
+    /* flex: 1; Make items share available space equally */
+    /* Optional spacing around items */
+  }
+  
+  /* Media Query for Mobile View (Adjust breakpoint as needed) */
+  @media (max-width: 1023px) {
+    .flex-container {
+      flex-direction: column; /* Stack items on top of each other */
+    }
+
+      /* order: 2;     .flex-item { }Move the middle item below on mobile (optional) */
+   
+      .flex-item{
+        order: 2;
+      }
+
+    .flex-item.middle {
+      order: 3; /* Re-order the middle item back to the top on mobile (if needed) */
+    }
+  }
+/* --------------------------------- */
 
 
 @media only screen and (max-width: 600px) {

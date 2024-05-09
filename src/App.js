@@ -9,6 +9,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LegacyMedia from './components/LegacyMedia';
 import TopStories from './components/TopStories';
+import Topknockouts from './components/Topknockouts';
+import Comunity from './components/Comunity';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <LegacyMedia />
       <TopFighters />
       <TopStories />
+      <Topknockouts />
+      <Comunity />
       <History />
       <Contact />
       <Footer />

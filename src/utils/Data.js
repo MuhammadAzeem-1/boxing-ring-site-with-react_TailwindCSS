@@ -185,3 +185,59 @@ export const contactSection = [
         text: "discover never seen before footage & fights"
     },
 ]
+
+export const comunityData = [
+    {
+        id: "1",
+        title: "country",  
+        item: "US",
+    },
+    {
+        id: "2",
+        title: "Class",  
+        item: "waterweight",
+    },
+    {
+        id: "3",
+        title: "stance",  
+        item: "orthodox",
+    },
+    {
+        id: "4",
+        title: "reach",  
+        item: "6 ft 11 in",
+    },
+    {
+        id: "5",
+        title: "ko",  
+        item: "-",
+    },
+]
+
+
+export const comunityCardData = [
+    {
+        id: "1",
+        percent: "87%",  
+        website: "boxing.net",
+        reviews: "192 Reviews"
+    },
+    {
+        id: "2",
+        percent: "87%",  
+        website: "boxing.net",
+        reviews: "192 Reviews"
+    },
+    {
+        id: "3",
+        percent: "87%",  
+        website: "boxing.net",
+        reviews: "192 Reviews"
+    },
+    {
+        id: "4",
+        percent: "87%",  
+        website: "boxing.net",
+        reviews: "192 Reviews"
+    },
+]
