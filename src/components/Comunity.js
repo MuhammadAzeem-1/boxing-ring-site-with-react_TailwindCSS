@@ -75,7 +75,7 @@ const Comunity = () => {
                 </div>
               </div>
 
-              <div className="w-[23rem] sm:w-[30rem] flex-item middle mx-4 sm:mx-0">
+              <div className="w-[23rem] sm:w-[30rem] flex-item middle ">
                 <div className="flex_5">
                   <div className="comunity-gradient w-[20rem] sm:w-[24rem] mt-16 py-4 px-10 flex_5 flex-col ">
 
@@ -123,7 +123,7 @@ const Comunity = () => {
                       </h3>
                       </div>
 
-                       <h3 className="text-[wheat]">
+                       <h3 className="text-[wheat] flex justify-end">
                         {item.title}
                       </h3>
                       

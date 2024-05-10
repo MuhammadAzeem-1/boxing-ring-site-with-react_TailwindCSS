@@ -8,7 +8,7 @@ const Footer = () => {
       <FooterOne />
       <FooterTwo />
 
-      <div className="flex justify-between py-16 text-white text-[16px]">
+      <div className="flex justify-between py-8 text-white text-[16px]">
         <p>Policy | Term of use</p>
 
         <p>All rights Resrerved </p>
